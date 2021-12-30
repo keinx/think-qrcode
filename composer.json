@@ -1,0 +1,24 @@
+{
+    "name": "keinx/think-qrcode",
+    "description": "QR code generation for thinkphp6",
+    "homepage": "https://github.com/keinx/think-qrcode",
+    "type": "library",
+    "minimum-stability": "stable",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "keinx",
+            "email": "echo@keinx.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "topthink/framework": "^6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "keinx\\qrcode\\": "src/"
+        }
+    }
+}
